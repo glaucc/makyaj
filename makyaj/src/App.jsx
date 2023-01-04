@@ -76,7 +76,7 @@ export default function App() {
               <div className="wp-block-group site-header site-header-linear alignfull is-content-justification-space-between is-layout-flex wp-container-5">
                 <div className="wp-block-group site-brand is-layout-flex">
                   <div className="wp-block-group site-words-stack-small is-layout-flex">
-                    <h1 className="wp-block-site-title"><a href="https://makyaj3.wordpress.com" target="_self" rel="home" aria-current="page">Makyaj</a></h1>
+                    <h1 className="wp-block-site-title"><a href="https://makyaj.one" target="_self" rel="home" aria-current="page">Makyaj</a></h1>
                     <p style={{fontSize: 'var(--wp--custom--font-sizes--x)'}} className="wp-block-site-tagline">Enhance your beauty with Makyaj!</p>
                   </div>
                 </div>
