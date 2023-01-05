@@ -55,7 +55,7 @@ export default function App() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Makyaj" />
         <meta property="og:description" content="Enhance your beauty with Makyaj!" />
-        <meta property="og:url" content="https://makyaj3.wordpress.com/" />
+        <meta property="og:url" content="https://makyaj.one/" />
         <meta property="og:site_name" content="Makyaj" />
         <meta property="og:image" content="https://attardemo.files.wordpress.com/2022/02/pexels-karolina-grabowska-4041392.jpg" />
         <meta property="og:image:alt" content />
