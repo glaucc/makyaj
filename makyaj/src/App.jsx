@@ -1,10 +1,12 @@
 import './App.css'
+import Home from './Home'
 
 
 export default function App() {
 
   return (
       <div>
+        <Home />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="max-image-preview:large" />
@@ -46,7 +48,7 @@ export default function App() {
         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://makyaj3.wordpress.com/xmlrpc.php?rsd" />
         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s0.wp.com/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress.com" />
-        <link rel="canonical" href="https://makyaj3.wordpress.com/" />
+        <link rel="canonical" href="https://makyaj.one/" />
         <link rel="shortlink" href="https://wp.me/Petmr7-4" />
         <link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&url=https%3A%2F%2Fmakyaj3.wordpress.com%2F&for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&url=https%3A%2F%2Fmakyaj3.wordpress.com%2F&for=wpcom-auto-discovery" />
         {/* Jetpack Open Graph Tags */}
