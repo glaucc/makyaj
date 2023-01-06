@@ -1,12 +1,10 @@
 import './App.css'
-import Home from './Home'
 
 
 export default function App() {
 
   return (
       <div>
-        <Home />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="max-image-preview:large" />
@@ -14,8 +12,8 @@ export default function App() {
         <link rel="dns-prefetch" href="//s0.wp.com" />
         <link rel="dns-prefetch" href="//wordpress.com" />
         <link href="https://fonts.gstatic.com" crossOrigin rel="preconnect" />
-        <link rel="alternate" type="application/rss+xml" title="Makyaj » Feed" href="https://makyaj3.wordpress.com/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Makyaj » Comments Feed" href="https://makyaj3.wordpress.com/comments/feed/" />
+        <link rel="alternate" type="application/rss+xml" title="Makyaj » Feed" href="https://makyaj.one/feed/" />
+        <link rel="alternate" type="application/rss+xml" title="Makyaj » Comments Feed" href="https://makyaj.one/comments/feed/" />
         <style dangerouslySetInnerHTML={{__html: "\nimg.wp-smiley,\nimg.emoji {\n\tdisplay: inline !important;\n\tborder: none !important;\n\tbox-shadow: none !important;\n\theight: 1em !important;\n\twidth: 1em !important;\n\tmargin: 0 0.07em !important;\n\tvertical-align: -0.1em !important;\n\tbackground: none !important;\n\tpadding: 0 !important;\n}\n" }} />
         <link crossOrigin="anonymous" rel="stylesheet" id="all-css-0-1" href="https://s0.wp.com/_static/??-eJx9zNEKgzAMBdAfsgsDV/Rh7FvaEmpt0xYTkf396oswBR9z7z2BrSpXsmAWoFXVtPqQGbbqCimZkLDVVI2ATcVFaxgfjrmDO8cUEn5P14W1h/6AZJaIErJX1izQpv/Jjj/0fmqtx9fQ637+AZTkRK0=?cssminify=yes" type="text/css" media="all" />
         <style id="blockbase_font_faces-inline-css" dangerouslySetInnerHTML={{__html: "\n/* latin-ext */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: italic;\n\tfont-weight: 400;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-latin-ext-Regular-italic.woff2) format('woff2');\n\tunicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n\n/* latin */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: italic;\n\tfont-weight: 400;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-Regular-italic.woff2) format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n/* latin-ext */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: italic;\n\tfont-weight: 500;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-latin-ext-Medium-italic.woff2) format('woff2');\n\tunicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n\n/* latin */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: italic;\n\tfont-weight: 500;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-Medium-italic.woff2) format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n/* latin-ext */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: italic;\n\tfont-weight: 700;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-latin-ext-Bold-italic.woff2) format('woff2');\n\tunicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n\n/* latin */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: italic;\n\tfont-weight: 700;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-Bold-italic.woff2) format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n/* latin-ext */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: normal;\n\tfont-weight: 400;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-latin-ext-Regular.woff2) format('woff2');\n\tunicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n\n/* latin */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: normal;\n\tfont-weight: 400;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-Regular.woff2) format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n/* latin-ext */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: normal;\n\tfont-weight: 500;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-latin-ext-Medium.woff2) format('woff2');\n\tunicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n\n/* latin */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: normal;\n\tfont-weight: 500;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-Medium.woff2) format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n/* latin-ext */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: normal;\n\tfont-weight: 700;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-latin-ext-Bold.woff2) format('woff2');\n\tunicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n\n/* latin */\n@font-face {\n\tfont-family: 'DM Sans';\n\tfont-style: normal;\n\tfont-weight: 700;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/dm-sans/dm-sans-Bold.woff2) format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}/* cyrillic-ext */\n@font-face {\n\tfont-family: 'Inter';\n\tfont-style: normal;\n\tfont-weight: 100 900;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/inter/inter-cyrillic-ext-100-900.woff2) format('woff2');\n\tunicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n\n/* cyrillic */\n@font-face {\n\tfont-family: 'Inter';\n\tfont-style: normal;\n\tfont-weight: 100 900;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/inter/inter-cyrillic-100-900.woff2) format('woff2');\n\tunicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n\n/* greek-ext */\n@font-face {\n\tfont-family: 'Inter';\n\tfont-style: normal;\n\tfont-weight: 100 900;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/inter/inter-greek-ext-100-900.woff2) format('woff2');\n\tunicode-range: U+1F00-1FFF;\n}\n\n/* greek */\n@font-face {\n\tfont-family: 'Inter';\n\tfont-style: normal;\n\tfont-weight: 100 900;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/inter/inter-greek-100-900.woff2) format('woff2');\n\tunicode-range: U+0370-03FF;\n}\n\n/* vietnamese */\n@font-face {\n\tfont-family: 'Inter';\n\tfont-style: normal;\n\tfont-weight: 100 900;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/inter/inter-vietnamese-100-900.woff2) format('woff2');\n\tunicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n\n/* latin-ext */\n@font-face {\n\tfont-family: 'Inter';\n\tfont-style: normal;\n\tfont-weight: 100 900;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/inter/inter-latin-ext-100-900.woff2) format('woff2');\n\tunicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n\n/* latin */\n@font-face {\n\tfont-family: 'Inter';\n\tfont-style: normal;\n\tfont-weight: 100 900;\n\tfont-display: swap;\n\tsrc: url(https://s0.wp.com/wp-content/themes/pub/blockbase/assets/fonts/inter/inter-100-900.woff2) format('woff2');\n\tunicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n" }} />
@@ -45,12 +43,12 @@ export default function App() {
         <link crossOrigin="anonymous" rel="stylesheet" id="all-css-42-1" href="https://s0.wp.com/_static/??-eJx9kFsOwkAIRTckjtXExg/jWqYtjlhmaDpU4+7FR33HP+6FwyW4Ywe1JMWkLg7Q8RAoZVdLjGYBU4um8oczNWfiyCVRMjo/ilvjZee4EBtSSgFUhFvSe5Dremls3JZDYKk8Q9YTW2RDWX814EB4/ErRHUaDuqFyFUvdVj6j8zmjminptCXmf5BX9f0IXP2v6ZfnBBSwFK8k6U3Alj31/9Ae7b5gZbg+9Skv0Caui2VZzOarclHsz4jLml8=?cssminify=yes" type="text/css" media="all" />
         <style id="jetpack-global-styles-frontend-style-inline-css" dangerouslySetInnerHTML={{__html: "\n:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif;}\n" }} />
         <link crossOrigin="anonymous" rel="stylesheet" id="all-css-44-1" href="https://s0.wp.com/wp-content/themes/h4/global.css?m=1420737423h&cssminify=yes" type="text/css" media="all" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://makyaj3.wordpress.com/xmlrpc.php?rsd" />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://makyaj.one/xmlrpc.php?rsd" />
         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s0.wp.com/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress.com" />
         <link rel="canonical" href="https://makyaj.one/" />
         <link rel="shortlink" href="https://wp.me/Petmr7-4" />
-        <link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&url=https%3A%2F%2Fmakyaj3.wordpress.com%2F&for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&url=https%3A%2F%2Fmakyaj3.wordpress.com%2F&for=wpcom-auto-discovery" />
+        <link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&url=https%3A%2F%2Fmakyaj.one%2F&for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&url=https%3A%2F%2Fmakyaj.one%2F&for=wpcom-auto-discovery" />
         {/* Jetpack Open Graph Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Makyaj" />
@@ -70,8 +68,7 @@ export default function App() {
         <link rel="apple-touch-icon" href="https://s0.wp.com/i/webclip.png" />
         <link rel="search" type="application/opensearchdescription+xml" href="https://makyaj.one/osd.xml" title="Makyaj" />
         <link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
-        <meta name="application-name" content="Makyaj" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Enhance your beauty with Makyaj!" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://makyaj3.wordpress.com/feed/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="description" content="100% Pure RoseEssential Oil Our range of high-quality essential oils has been hand-picked by our scent specialists. Shop Now Rose essential oil is known for its moisturizing, comforting, and balancing properties. Eyeliner Göz makyajının olmazsa olmazı eyeliner! 5.00 AZN Göz makyajının olmazsa olmazı eyeliner! Çatdırılma: Bakı ✔️ “Keyfiyyətə söz ola bilməz!. It smells divine and…" />
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width={0} height={0} focusable="false" role="none" style={{visibility: 'hidden', position: 'absolute', left: '-9999px', overflow: 'hidden'}}><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix colorInterpolationFilters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer colorInterpolationFilters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width={0} height={0} focusable="false" role="none" style={{visibility: 'hidden', position: 'absolute', left: '-9999px', overflow: 'hidden'}}><defs><filter id="wp-duotone-grayscale"><feColorMatrix colorInterpolationFilters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer colorInterpolationFilters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width={0} height={0} focusable="false" role="none" style={{visibility: 'hidden', position: 'absolute', left: '-9999px', overflow: 'hidden'}}><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix colorInterpolationFilters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer colorInterpolationFilters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width={0} height={0} focusable="false" role="none" style={{visibility: 'hidden', position: 'absolute', left: '-9999px', overflow: 'hidden'}}><defs><filter id="wp-duotone-blue-red"><feColorMatrix colorInterpolationFilters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer colorInterpolationFilters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width={0} height={0} focusable="false" role="none" style={{visibility: 'hidden', position: 'absolute', left: '-9999px', overflow: 'hidden'}}><defs><filter id="wp-duotone-midnight"><feColorMatrix colorInterpolationFilters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer colorInterpolationFilters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width={0} height={0} focusable="false" role="none" style={{visibility: 'hidden', position: 'absolute', left: '-9999px', overflow: 'hidden'}}><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix colorInterpolationFilters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer colorInterpolationFilters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width={0} height={0} focusable="false" role="none" style={{visibility: 'hidden', position: 'absolute', left: '-9999px', overflow: 'hidden'}}><defs><filter id="wp-duotone-purple-green"><feColorMatrix colorInterpolationFilters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer colorInterpolationFilters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width={0} height={0} focusable="false" role="none" style={{visibility: 'hidden', position: 'absolute', left: '-9999px', overflow: 'hidden'}}><defs><filter id="wp-duotone-blue-orange"><feColorMatrix colorInterpolationFilters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer colorInterpolationFilters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+        <meta name="application-name" content="Makyaj" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Enhance your beauty with Makyaj!" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://makyaj.one/feed/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="description" content="100% Pure RoseEssential Oil Our range of high-quality essential oils has been hand-picked by our scent specialists. Shop Now Rose essential oil is known for its moisturizing, comforting, and balancing properties. Eyeliner Göz makyajının olmazsa olmazı eyeliner! 5.00 AZN Göz makyajının olmazsa olmazı eyeliner! Çatdırılma: Bakı ✔️ “Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu. It smells divine and…" />
         <div className="wp-site-blocks"><header className="wp-block-template-part">
             <div className="wp-block-group gapless-group is-layout-constrained">
               <div className="wp-block-group site-header site-header-linear alignfull is-content-justification-space-between is-layout-flex wp-container-5">
@@ -81,17 +78,15 @@ export default function App() {
                     <p style={{fontSize: 'var(--wp--custom--font-sizes--x)'}} className="wp-block-site-tagline">Enhance your beauty with Makyaj!</p>
                   </div>
                 </div>
-                <nav className="is-responsive items-justified-right is-fallback social-links wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-4" aria-label><button aria-haspopup="true" aria-label="Open menu" className="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-3"><svg width={24} height={24} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x={4} y="7.5" width={16} height="1.5" /><rect x={4} y={15} width={16} height="1.5" /></svg></button>
+                <nav className="is-responsive items-justified-right is-fallback social-links wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-4" aria-label>
                   <div className="wp-block-navigation__responsive-container  " style={{}} id="modal-3">
                     <div className="wp-block-navigation__responsive-close" tabIndex={-1} data-micromodal-close>
-                      <div className="wp-block-navigation__responsive-dialog" aria-label="Menu">
-                        <button aria-label="Close menu" data-micromodal-close className="wp-block-navigation__responsive-container-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z" /></svg></button>
                         <div className="wp-block-navigation__responsive-container-content" id="modal-3-content">
-                          <ul className="wp-block-page-list"><li className="wp-block-pages-list__item current-menu-item wp-block-navigation-item open-on-hover-click menu-item-home"><a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://makyaj3.wordpress.com/" aria-current="page">Home</a></li></ul>
+                          <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://makyaj.one/" aria-current="page">Home</a>
                         </div>
-                      </div>
                     </div>
-                  </div></nav>
+                  </div>
+                </nav>
               </div>
             </div>
           </header>
@@ -114,7 +109,7 @@ export default function App() {
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-11">
                   <div className="wp-block-column is-layout-flow">
-                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj3.wordpress.com/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
+                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj.one/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
                     <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Eyeliner</h2>
@@ -129,7 +124,7 @@ export default function App() {
               </div>
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
-                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz!. It smells divine and lasts all day! A true and beautiful rose fragrance.”</em></h2>
+                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
                 <p className="has-text-align-center has-small-font-size">Sarah from Melbourne</p>
               </div>
             </div>
@@ -152,7 +147,7 @@ export default function App() {
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-19">
                   <div className="wp-block-column is-layout-flow">
-                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj3.wordpress.com/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
+                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj.one/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
                     <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Eyeliner</h2>
@@ -167,8 +162,8 @@ export default function App() {
               </div>
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
-                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz!. It smells divine and lasts all day! A true and beautiful rose fragrance.”</em></h2>
-                <p className="has-text-align-center has-small-font-size">Sarah from Melbourne</p>
+                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu”</em></h2>
+                <p className="has-text-align-center has-small-font-size">Makyaj One müştərisi, Sara xanım</p>
               </div>
             </div>
             <div className="entry-content wp-block-post-content is-layout-constrained">
@@ -190,7 +185,7 @@ export default function App() {
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-27">
                   <div className="wp-block-column is-layout-flow">
-                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj3.wordpress.com/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
+                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj.one/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
                     <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Eyeliner</h2>
@@ -205,7 +200,7 @@ export default function App() {
               </div>
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
-                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz!. It smells divine and lasts all day! A true and beautiful rose fragrance.”</em></h2>
+                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
                 <p className="has-text-align-center has-small-font-size">Sarah from Melbourne</p>
               </div>
             </div>
@@ -228,7 +223,7 @@ export default function App() {
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-35">
                   <div className="wp-block-column is-layout-flow">
-                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj3.wordpress.com/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
+                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj.one/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
                     <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Eyeliner</h2>
@@ -243,7 +238,7 @@ export default function App() {
               </div>
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
-                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz!. It smells divine and lasts all day! A true and beautiful rose fragrance.”</em></h2>
+                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
                 <p className="has-text-align-center has-small-font-size">Sarah from Melbourne</p>
               </div>
             </div>
@@ -262,7 +257,7 @@ export default function App() {
                         <p id="subscribe-submit">
                           <input type="hidden" name="action" defaultValue="subscribe" />
                           <input type="hidden" name="blog_id" defaultValue={213866465} />
-                          <input type="hidden" name="source" defaultValue="https://makyaj3.wordpress.com/" />
+                          <input type="hidden" name="source" defaultValue="https://makyaj.one/" />
                           <input type="hidden" name="sub-type" defaultValue="subscribe-block" />
                           <input type="hidden" name="redirect_fragment" defaultValue="subscribe-blog" />
                           <input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="e3f8038736" />					<button type="submit" className="wp-block-button__link no-border-radius has-1.0625rem-font-size has-background-border-color has-text-color has-background-color has-background has-foreground-background-color" style={{fontSize: '1.0625rem', padding: '16px 24px 16px 24px', margin: '0px', marginLeft: '11px', borderColor: 'background', borderRadius: '0px', borderWidth: '1px'}}>
@@ -278,185 +273,13 @@ export default function App() {
           <footer className="site-footer-container wp-block-template-part">
             <div className="wp-block-group is-layout-constrained">
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '80px', paddingBottom: '30px'}}>
-                <p className="has-text-align-center">Proudly Powered by <a href="https://wordpress.org" rel="nofollow">WordPress</a></p>
+                <p className="has-text-align-center">Proudly Powered by <a href="https://www.linkedin.com/company/byild" rel="nofollow">Byild</a></p>
               </div>
             </div>
           </footer></div>
         {/* wpcom_wp_footer */}
         <style id="skip-link-styles" dangerouslySetInnerHTML={{__html: "\n\t\t.skip-link.screen-reader-text {\n\t\t\tborder: 0;\n\t\t\tclip: rect(1px,1px,1px,1px);\n\t\t\tclip-path: inset(50%);\n\t\t\theight: 1px;\n\t\t\tmargin: -1px;\n\t\t\toverflow: hidden;\n\t\t\tpadding: 0;\n\t\t\tposition: absolute !important;\n\t\t\twidth: 1px;\n\t\t\tword-wrap: normal !important;\n\t\t}\n\n\t\t.skip-link.screen-reader-text:focus {\n\t\t\tbackground-color: #eee;\n\t\t\tclip: auto !important;\n\t\t\tclip-path: none;\n\t\t\tcolor: #444;\n\t\t\tdisplay: block;\n\t\t\tfont-size: 1em;\n\t\t\theight: auto;\n\t\t\tleft: 5px;\n\t\t\tline-height: normal;\n\t\t\tpadding: 15px 23px 14px;\n\t\t\ttext-decoration: none;\n\t\t\ttop: 5px;\n\t\t\twidth: auto;\n\t\t\tz-index: 100000;\n\t\t}\n\t" }} />
-        <div style={{display: 'none'}}>
-        </div>
-        <div id="jp-carousel-loading-overlay">
-          <div id="jp-carousel-loading-wrapper">
-            <span id="jp-carousel-library-loading">&nbsp;</span>
-          </div>
-        </div>
-        <div className="jp-carousel-overlay" style={{display: 'none'}}>
-          <div className="jp-carousel-container">
-            {/* The Carousel Swiper */}
-            <div className="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions" itemScope itemType="https://schema.org/ImageGallery">
-              <div className="jp-carousel swiper-wrapper" />
-              <div className="jp-swiper-button-prev swiper-button-prev">
-                <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x={8} y={6} width={9} height={12}>
-                    <path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white" />
-                  </mask>
-                  <g mask="url(#maskPrev)">
-                    <rect x="0.579102" width="23.8823" height={24} fill="#FFFFFF" />
-                  </g>
-                </svg>
-              </div>
-              <div className="jp-swiper-button-next swiper-button-next">
-                <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x={8} y={6} width={8} height={12}>
-                    <path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white" />
-                  </mask>
-                  <g mask="url(#maskNext)">
-                    <rect x="0.34375" width="23.8822" height={24} fill="#FFFFFF" />
-                  </g>
-                </svg>
-              </div>
-            </div>
-            {/* The main close buton */}
-            <div className="jp-carousel-close-hint">
-              <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x={5} y={5} width={15} height={14}>
-                  <path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white" />
-                </mask>
-                <g mask="url(#maskClose)">
-                  <rect x="0.409668" width="23.8823" height={24} fill="#FFFFFF" />
-                </g>
-              </svg>
-            </div>
-            {/* Image info, comments and meta */}
-            <div className="jp-carousel-info">
-              <div className="jp-carousel-info-footer">
-                <div className="jp-carousel-pagination-container">
-                  <div className="jp-swiper-pagination swiper-pagination" />
-                  <div className="jp-carousel-pagination" />
-                </div>
-                <div className="jp-carousel-photo-title-container">
-                  <h2 className="jp-carousel-photo-caption" />
-                </div>
-                <div className="jp-carousel-photo-icons-container">
-                  <a href="#" className="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
-                    <span className="jp-carousel-icon">
-                      <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x={2} y={2} width={21} height={20}>
-                          <path fillRule="evenodd" clipRule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white" />
-                        </mask>
-                        <g mask="url(#maskInfo)">
-                          <rect x="0.8125" width="23.8823" height={24} fill="#FFFFFF" />
-                        </g>
-                      </svg>
-                    </span>
-                  </a>
-                  <a href="#" className="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
-                    <span className="jp-carousel-icon">
-                      <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x={2} y={2} width={21} height={20}>
-                          <path fillRule="evenodd" clipRule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white" />
-                        </mask>
-                        <g mask="url(#maskComments)">
-                          <rect x="0.34668" width="23.8823" height={24} fill="#FFFFFF" />
-                        </g>
-                      </svg>
-                      <span className="jp-carousel-has-comments-indicator" aria-label="This image has comments." />
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="jp-carousel-info-extra">
-                <div className="jp-carousel-info-content-wrapper">
-                  <div className="jp-carousel-photo-title-container">
-                    <h2 className="jp-carousel-photo-title" />
-                  </div>
-                  <div className="jp-carousel-comments-wrapper">
-                    <div id="jp-carousel-comments-loading">
-                      <span>Loading Comments...</span>
-                    </div>
-                    <div className="jp-carousel-comments" />
-                    <div id="jp-carousel-comment-form-container">
-                      <span id="jp-carousel-comment-form-spinner">&nbsp;</span>
-                      <div id="jp-carousel-comment-post-results" />
-                      <form id="jp-carousel-comment-form">
-                        <label htmlFor="jp-carousel-comment-form-comment-field" className="screen-reader-text">Write a Comment...</label>
-                        <textarea name="comment" className="jp-carousel-comment-form-field jp-carousel-comment-form-textarea" id="jp-carousel-comment-form-comment-field" placeholder="Write a Comment..." defaultValue={""} />
-                        <div id="jp-carousel-comment-form-submit-and-info-wrapper">
-                          <div id="jp-carousel-comment-form-commenting-as">
-                            <fieldset>
-                              <label htmlFor="jp-carousel-comment-form-email-field">Email (Required)</label>
-                              <input type="text" name="email" className="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
-                            </fieldset>
-                            <fieldset>
-                              <label htmlFor="jp-carousel-comment-form-author-field">Name (Required)</label>
-                              <input type="text" name="author" className="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
-                            </fieldset>
-                            <fieldset>
-                              <label htmlFor="jp-carousel-comment-form-url-field">Website</label>
-                              <input type="text" name="url" className="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
-                            </fieldset>
-                          </div>
-                          <input type="submit" name="submit" className="jp-carousel-comment-form-button" id="jp-carousel-comment-form-button-submit" defaultValue="Post Comment" />
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div className="jp-carousel-image-meta">
-                    <div className="jp-carousel-title-and-caption">
-                      <div className="jp-carousel-photo-info">
-                        <h3 className="jp-carousel-caption" itemProp="caption description" />
-                      </div>
-                      <div className="jp-carousel-photo-description" />
-                    </div>
-                    <ul className="jp-carousel-image-exif" style={{display: 'none'}} />
-                    <a className="jp-carousel-image-download" target="_blank" style={{display: 'none'}}>
-                      <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x={3} y={3} width={19} height={18}>
-                          <path fillRule="evenodd" clipRule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white" />
-                        </mask>
-                        <g mask="url(#mask0)">
-                          <rect x="0.870605" width="23.8823" height={24} fill="#FFFFFF" />
-                        </g>
-                      </svg>
-                      <span className="jp-carousel-download-text" />
-                    </a>
-                    <div className="jp-carousel-image-map" style={{display: 'none'}} />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="actionbar" style={{display: 'none'}} className="actnbr-pub-attar actnbr-has-follow">
-          <ul>
-            <li className="actnbr-ellipsis actnbr-hidden">
-              <svg className="gridicon gridicons-ellipsis" height={24} width={24} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z" /></g></svg>				<div className="actnbr-popover tip tip-top-left actnbr-more">
-                <div className="tip-arrow" />
-                <div className="tip-inner">
-                  <ul>
-                    <li className="actnbr-sitename">
-                      <a href="https://makyaj3.wordpress.com">
-                        <img alt="" src="https://s0.wp.com/i/logo/wpcom-gray-white.png" className="avatar avatar-50" width={50} height={50} />				Makyaj			</a>
-                    </li>
-                    <li className="actnbr-folded-customize">
-                      <a href="https://wordpress.com/site-editor/makyaj3.wordpress.com">
-                        <svg className="gridicon gridicons-customize" height={20} width={20} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" /></g></svg>									<span>Edit Site</span>
-                      </a>
-                    </li>
-                    <li className="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
-                    <li className="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fmakyaj3.wordpress.com%2F&signup_flow=account">Log in</a></li>
-                    <li className="actnbr-shortlink"><a href="https://wp.me/Petmr7-4">Copy shortlink</a></li>
-                    <li className="flb-report"><a href="https://en.wordpress.com/abuse/">Report this content</a></li>
-                    <li className="actnbr-subs">
-                      <a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+
         <noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /&gt;</noscript>
       </div>
   )
