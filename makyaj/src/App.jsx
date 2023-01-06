@@ -118,18 +118,21 @@ export default function App() {
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️</p>
+                    <p><strong>Çatdırılma</strong>: Bakı ✔️ Sumqayıt ✔️</p>
                   </div>
                 </div>
               </div>
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
-                <p className="has-text-align-center has-small-font-size">Sarah from Melbourne</p>
+                <p className="has-text-align-center has-small-font-size">Makyaj One müştərisi, Sara xanım
+
+</p>
               </div>
             </div>
             <div className="entry-content wp-block-post-content is-layout-constrained">
-              <div className="wp-block-cover alignfull is-light" style={{minHeight: '75vh'}}><span aria-hidden="true" className="wp-block-cover__background has-background-dim-0 has-background-dim" /><img decoding="async" className="wp-block-cover__image-background wp-image-11" alt="" src="https://attardemo.files.wordpress.com/2022/02/pexels-karolina-grabowska-4041392.jpg" style={{objectPosition: '0% 50%'}} data-object-fit="cover" data-object-position="0% 50%" /><div className="wp-block-cover__inner-container">
+              <div className="wp-block-cover alignfull is-light" style={{minHeight: '75vh'}}><span aria-hidden="true" className="wp-block-cover__background has-background-dim-0 has-background-dim" /><img decoding="async" className="wp-block-cover__image-background wp-image-11" alt="" src="https://attardemo.files.wordpress.com/2022/02/pexels-karolina-grabowska-4041392.jpg" style={{objectPosition: '0% 50%'}} data-object-fit="cover" data-object-position="0% 50%" />
+              <div className="wp-block-cover__inner-container">
                   <div className="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-4 column1-desktop-grid__start-2 column1-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1">
                     <div className="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
                       <h2 className="wp-block-heading" id="100-pure-roseessential-oil" style={{fontSize: '48px', fontStyle: 'normal', fontWeight: 500}}>100% Pure Rose<br />Essential Oil</h2>
@@ -140,6 +143,15 @@ export default function App() {
                     </div>
                   </div>
                 </div></div>
+
+
+
+                {/* Product 1 */}
+
+
+
+
+
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="rose-essential-oil-is-known-for-its-moisturizing-comforting-and-balancing-properties" style={{lineHeight: '1.5'}}>Rose essential oil is known for its moisturizing, comforting, and balancing properties.</h2>
               </div>
@@ -156,10 +168,13 @@ export default function App() {
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️</p>
+                    <p><strong>Çatdırılma</strong>: Bakı ✔️ Sumqayıt ✔️</p>
                   </div>
                 </div>
               </div>
+
+              {/* Recommendation 1 */}
+
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu”</em></h2>
@@ -178,6 +193,11 @@ export default function App() {
                     </div>
                   </div>
                 </div></div>
+
+
+                {/* Product 2 */}
+
+
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="rose-essential-oil-is-known-for-its-moisturizing-comforting-and-balancing-properties" style={{lineHeight: '1.5'}}>Rose essential oil is known for its moisturizing, comforting, and balancing properties.</h2>
               </div>
@@ -194,14 +214,19 @@ export default function App() {
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️</p>
+                    <p><strong>Çatdırılma</strong>: Bakı ✔️ Sumqayıt ✔️</p>
                   </div>
                 </div>
               </div>
+
+              {/* Recommendation 2 */}
+
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
-                <p className="has-text-align-center has-small-font-size">Sarah from Melbourne</p>
+                <p className="has-text-align-center has-small-font-size">Makyaj One müştərisi, Sara xanım
+
+</p>
               </div>
             </div>
             <div className="entry-content wp-block-post-content is-layout-constrained">
@@ -216,6 +241,14 @@ export default function App() {
                     </div>
                   </div>
                 </div></div>
+
+
+
+                {/* Product 3 */}
+
+
+
+
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="rose-essential-oil-is-known-for-its-moisturizing-comforting-and-balancing-properties" style={{lineHeight: '1.5'}}>Rose essential oil is known for its moisturizing, comforting, and balancing properties.</h2>
               </div>
@@ -232,14 +265,19 @@ export default function App() {
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️</p>
+                    <p><strong>Çatdırılma</strong>: Bakı ✔️ Sumqayıt ✔️</p>
                   </div>
                 </div>
               </div>
+
+              {/* Recommendation 3 */}
+
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
-                <p className="has-text-align-center has-small-font-size">Sarah from Melbourne</p>
+                <p className="has-text-align-center has-small-font-size">Makyaj One müştərisi, Sara xanım
+
+</p>
               </div>
             </div>
             <div className="wp-elements-5a51119ff6dc37d1f3ded4ce432e40e6 wp-block-columns alignwide are-vertically-aligned-center has-background-color has-foreground-background-color has-text-color has-background has-link-color is-layout-flex wp-container-42" style={{borderRadius: '28px', paddingTop: '4vw', paddingRight: '5.8%', paddingBottom: '4vw', paddingLeft: '5.8%'}}>
@@ -249,7 +287,7 @@ export default function App() {
               <div className="wp-block-column is-vertically-aligned-center is-layout-flow" style={{flexBasis: '55%'}}>
                 <div className="wp-block-group has-white-background-color has-background is-layout-flow" style={{paddingTop: '0px', paddingRight: '0px', paddingBottom: '0px', paddingLeft: '0px'}}>	<div className="wp-block-jetpack-subscriptions__supports-newline is-style-compact wp-block-jetpack-subscriptions">
                     <div className="wp-block-jetpack-subscriptions__container">
-                      <form action="https://subscribe.wordpress.com" method="post" acceptCharset="utf-8" id="subscribe-blog">
+                      <form action="" method="post" acceptCharset="utf-8" id="subscribe-blog">
                         <p id="subscribe-email">
                           <label id="subscribe-field-label" htmlFor="subscribe-field" className="screen-reader-text">
                             Type your email…					</label>
@@ -260,7 +298,8 @@ export default function App() {
                           <input type="hidden" name="source" defaultValue="https://makyaj.one/" />
                           <input type="hidden" name="sub-type" defaultValue="subscribe-block" />
                           <input type="hidden" name="redirect_fragment" defaultValue="subscribe-blog" />
-                          <input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="e3f8038736" />					<button type="submit" className="wp-block-button__link no-border-radius has-1.0625rem-font-size has-background-border-color has-text-color has-background-color has-background has-foreground-background-color" style={{fontSize: '1.0625rem', padding: '16px 24px 16px 24px', margin: '0px', marginLeft: '11px', borderColor: 'background', borderRadius: '0px', borderWidth: '1px'}}>
+                          <input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="e3f8038736" />					
+                          <button type="submit" className="wp-block-button__link no-border-radius has-1.0625rem-font-size has-background-border-color has-text-color has-background-color has-background has-foreground-background-color" style={{fontSize: '1.0625rem', padding: '16px 24px 16px 24px', margin: '0px', marginLeft: '11px', borderColor: 'background', borderRadius: '0px', borderWidth: '1px'}}>
                             Subscribe					</button>
                         </p>
                       </form>
