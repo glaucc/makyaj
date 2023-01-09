@@ -186,7 +186,7 @@ export default function App() {
                   <div className="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-4 column1-desktop-grid__start-2 column1-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1">
                     <div className="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
                       <h2 className="wp-block-heading" id="100-pure-roseessential-oil" style={{fontSize: '48px', fontStyle: 'normal', fontWeight: 500}}>100% Pure Rose<br />Essential Oil</h2>
-                      <p>Our range of high-quality essential oils has been hand-picked by our scent specialists.</p>
+                      <p>Simply Better</p>
                       <div className="wp-block-buttons is-layout-flex">
                         <div className="wp-block-button is-style-outline"><a className="wp-block-button__link wp-element-button" style={{borderRadius: '0px'}}>Shop Now</a></div>
                       </div>
