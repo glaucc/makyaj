@@ -79,10 +79,10 @@ export default function App() {
                   </div>
                 </div>
                 <nav className="is-responsive items-justified-right is-fallback social-links wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-4" aria-label>
-                  <div className="wp-block-navigation__responsive-container  " style={{}} id="modal-3">
+                  <div className="wp-block-navigation__responsive-container  " id="modal-3">
                     <div className="wp-block-navigation__responsive-close" tabIndex={-1} data-micromodal-close>
                         <div className="wp-block-navigation__responsive-container-content" id="modal-3-content">
-                          <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://makyaj.one/" aria-current="page">Home</a>
+                          <a className="wp-block-pages-list__item__link wp-block-navigation-item__content" href="https://makyaj.one/" aria-current="page"><b>Home</b></a>
                         </div>
                     </div>
                   </div>
