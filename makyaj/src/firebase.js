@@ -21,12 +21,12 @@ import { getAnalytics } from "firebase/analytics";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAAx_knJ_qqxPkJQ_xoIZnxt_c6gb6Wdys",
-  authDomain: "todoapp-eeeb7.firebaseapp.com",
-  projectId: "todoapp-eeeb7",
-  storageBucket: "todoapp-eeeb7.appspot.com",
-  messagingSenderId: "1072574112522",
-  appId: "1:1072574112522:web:65fc4e184aed9894dc90f3"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_ID
 };
  
 // Initialize Firebase
