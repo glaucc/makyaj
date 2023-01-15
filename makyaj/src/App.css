@@ -1,0 +1,11 @@
+* {
+    text-decoration: none;
+    color: black;
+}
+
+.soon {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
