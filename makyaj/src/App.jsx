@@ -63,8 +63,8 @@ export default function App() {
         <meta name="twitter:text:title" content="Home" />
         <meta name="twitter:card" content="summary" />
         {/* End Jetpack Open Graph Tags */}
-        <link rel="shortcut icon" type="image/x-icon" href="../src/assets/icon1.svg" sizes="16x16 24x24 32x32 48x48" />
-        <link rel="icon" type="image/x-icon" href="../src/assets/icon1.svg" sizes="16x16 24x24 32x32 48x48" />
+        <link rel="shortcut icon" type="image/x-icon" href="../src/assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="../src/assets/favicon.ico" />
         <link rel="apple-touch-icon" href="https://s0.wp.com/i/webclip.png" />
         <link rel="search" type="application/opensearchdescription+xml" href="https://makyaj.one/osd.xml" title="Makyaj" />
         <link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
@@ -97,7 +97,7 @@ export default function App() {
                       <h2 className="wp-block-heading" id="100-pure-roseessential-oil" style={{fontSize: '48px', fontStyle: 'normal', fontWeight: 500}}>100% Pure Rose<br />Essential Oil</h2>
                       <p>Our range of high-quality essential oils has been hand-picked by our scent specialists.</p>
                       <div className="wp-block-buttons is-layout-flex">
-                        <div className="wp-block-button is-style-outline"><a className="wp-block-button__link wp-element-button" style={{borderRadius: '0px'}}>Shop Now</a></div>
+                        <div className="wp-block-button is-style-outline"><a className="wp-block-button__link wp-element-button" style={{borderRadius: '0px'}}>İndi Al</a></div>
                       </div>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ export default function App() {
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️ Sumqayıt ✔️</p>
+                    <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
@@ -168,7 +168,7 @@ export default function App() {
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️ Sumqayıt ✔️</p>
+                    <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function App() {
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️ Sumqayıt ✔️</p>
+                    <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
@@ -265,7 +265,7 @@ export default function App() {
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️ Sumqayıt ✔️</p>
+                    <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
