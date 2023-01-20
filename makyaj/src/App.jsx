@@ -300,7 +300,7 @@ export default function App() {
                           <input type="hidden" name="redirect_fragment" defaultValue="subscribe-blog" />
                           <input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="e3f8038736" />					
                           <button type="submit" className="wp-block-button__link no-border-radius has-1.0625rem-font-size has-background-border-color has-text-color has-background-color has-background has-foreground-background-color" style={{fontSize: '1.0625rem', padding: '16px 24px 16px 24px', margin: '0px', marginLeft: '11px', borderColor: 'background', borderRadius: '0px', borderWidth: '1px'}}>
-                            Subscribe					</button>
+                            Subscribe</button>
                         </p>
                       </form>
                     </div>
