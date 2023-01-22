@@ -2,7 +2,7 @@ import './App.css'
 
 
 export default function App() {
-
+  
   return (
       <div>
         <meta charSet="UTF-8" />
@@ -320,6 +320,7 @@ export default function App() {
         <style id="skip-link-styles" dangerouslySetInnerHTML={{__html: "\n\t\t.skip-link.screen-reader-text {\n\t\t\tborder: 0;\n\t\t\tclip: rect(1px,1px,1px,1px);\n\t\t\tclip-path: inset(50%);\n\t\t\theight: 1px;\n\t\t\tmargin: -1px;\n\t\t\toverflow: hidden;\n\t\t\tpadding: 0;\n\t\t\tposition: absolute !important;\n\t\t\twidth: 1px;\n\t\t\tword-wrap: normal !important;\n\t\t}\n\n\t\t.skip-link.screen-reader-text:focus {\n\t\t\tbackground-color: #eee;\n\t\t\tclip: auto !important;\n\t\t\tclip-path: none;\n\t\t\tcolor: #444;\n\t\t\tdisplay: block;\n\t\t\tfont-size: 1em;\n\t\t\theight: auto;\n\t\t\tleft: 5px;\n\t\t\tline-height: normal;\n\t\t\tpadding: 15px 23px 14px;\n\t\t\ttext-decoration: none;\n\t\t\ttop: 5px;\n\t\t\twidth: auto;\n\t\t\tz-index: 100000;\n\t\t}\n\t" }} />
 
         <noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /&gt;</noscript>
+        <div id="my-store-83841409"></div>
       </div>
   )
 };
