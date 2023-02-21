@@ -91,7 +91,13 @@ export default function App() {
             </div>
           </header>
           <main className="wp-block-group is-layout-flow"><div className="entry-content wp-block-post-content is-layout-constrained">
-              <div className="wp-block-cover alignfull is-light" style={{minHeight: '75vh'}}><span aria-hidden="true" className="wp-block-cover__background has-background-dim-0 has-background-dim" /><img decoding="async" className="wp-block-cover__image-background wp-image-11" alt="" src="https://attardemo.files.wordpress.com/2022/02/pexels-karolina-grabowska-4041392.jpg" style={{objectPosition: '0% 50%'}} data-object-fit="cover" data-object-position="0% 50%" /><div className="wp-block-cover__inner-container">
+
+
+{/* 100% Essential oil useful */}
+
+
+
+              {/* <div className="wp-block-cover alignfull is-light" style={{minHeight: '75vh'}}><span aria-hidden="true" className="wp-block-cover__background has-background-dim-0 has-background-dim" /><img decoding="async" className="wp-block-cover__image-background wp-image-11" alt="" src="https://attardemo.files.wordpress.com/2022/02/pexels-karolina-grabowska-4041392.jpg" style={{objectPosition: '0% 50%'}} data-object-fit="cover" data-object-position="0% 50%" /><div className="wp-block-cover__inner-container">
                   <div className="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-4 column1-desktop-grid__start-2 column1-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1">
                     <div className="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
                       <h2 className="wp-block-heading" id="100-pure-roseessential-oil" style={{fontSize: '48px', fontStyle: 'normal', fontWeight: 500}}>100% Pure Rose<br />Essential Oil</h2>
@@ -101,37 +107,51 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                </div></div>
-              <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
+                </div></div> */}
+              {/* <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="rose-essential-oil-is-known-for-its-moisturizing-comforting-and-balancing-properties" style={{lineHeight: '1.5'}}>Rose essential oil is known for its moisturizing, comforting, and balancing properties.</h2>
-              </div>
+              </div> */}
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-11">
                   <div className="wp-block-column is-layout-flow">
-                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj.one/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
+                  <figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="27" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5341286991221867480_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5341286991221867480_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=736" alt="" class="wp-image-27" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
-                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Eyeliner</h2>
-                    <p className="has-small-font-size">Göz makyajının olmazsa olmazı <strong>eyeliner!</strong></p>
-                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">5.00 AZN</h2>
+                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Maybelline New York Lash Sensational Sky High Maskara</h2>
+                    <p className="has-small-font-size">💄Suya dayanıqlı (Waterproof💧 )<br />💄Həcm təsirlidir<br />💄24 saat qalıcıdır</p>
+                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">15.00 AZN</h2>
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
-                    <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
+                    {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
                     <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
-              <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
+              {/* <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
                 <p className="has-text-align-center has-small-font-size">Makyaj One müştərisi, Sara xanım
 
 </p>
-              </div>
+              </div> */}
             </div>
             <div className="entry-content wp-block-post-content is-layout-constrained">
-              <div className="wp-block-cover alignfull is-light" style={{minHeight: '75vh'}}><span aria-hidden="true" className="wp-block-cover__background has-background-dim-0 has-background-dim" /><img decoding="async" className="wp-block-cover__image-background wp-image-11" alt="" src="https://attardemo.files.wordpress.com/2022/02/pexels-karolina-grabowska-4041392.jpg" style={{objectPosition: '0% 50%'}} data-object-fit="cover" data-object-position="0% 50%" />
+              {/* <div className="wp-block-cover alignfull is-light" style={{minHeight: '75vh'}}><span aria-hidden="true" className="wp-block-cover__background has-background-dim-0 has-background-dim" /><img decoding="async" className="wp-block-cover__image-background wp-image-11" alt="" src="https://attardemo.files.wordpress.com/2022/02/pexels-karolina-grabowska-4041392.jpg" style={{objectPosition: '0% 50%'}} data-object-fit="cover" data-object-position="0% 50%" />
               <div className="wp-block-cover__inner-container">
                   <div className="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-4 column1-desktop-grid__start-2 column1-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1">
                     <div className="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
@@ -142,7 +162,15 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                </div></div>
+                </div></div> */}
+
+
+
+
+
+
+
+
 
 
 
@@ -152,22 +180,22 @@ export default function App() {
 
 
 
-              <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
+              {/* <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="rose-essential-oil-is-known-for-its-moisturizing-comforting-and-balancing-properties" style={{lineHeight: '1.5'}}>Rose essential oil is known for its moisturizing, comforting, and balancing properties.</h2>
-              </div>
+              </div> */}
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-19">
                   <div className="wp-block-column is-layout-flow">
-                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj.one/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
+                  <figure class="wp-duotone-unset-13 wp-block-image size-large"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="26" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5355163141497013324_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5355163141497013324_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=736" alt="" class="wp-image-26" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
-                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Eyeliner</h2>
-                    <p className="has-small-font-size">Göz makyajının olmazsa olmazı <strong>eyeliner!</strong></p>
+                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Maybelline New York İnstant Anti Age Eraser Qapadıcı</h2>
+                    <p className="has-small-font-size">✨Likit formada<br />✨Yüksək qapadıcılıq qabiliyyəti<br />✨10 fərqli rəng seçimi</p>
                     <h2 className="wp-block-heading has-medium-font-size" id="129-00">5.00 AZN</h2>
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
-                    <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
+                    {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
                     <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
@@ -175,7 +203,7 @@ export default function App() {
 
               {/* Recommendation 1 */}
 
-              <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
+              {/* <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu”</em></h2>
                 <p className="has-text-align-center has-small-font-size">Makyaj One müştərisi, Sara xanım</p>
@@ -192,35 +220,35 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                </div></div>
+                </div></div> */}
 
 
                 {/* Product 2 */}
 
 
-              <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
+              {/* <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="rose-essential-oil-is-known-for-its-moisturizing-comforting-and-balancing-properties" style={{lineHeight: '1.5'}}>Rose essential oil is known for its moisturizing, comforting, and balancing properties.</h2>
-              </div>
+              </div> */}
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-27">
                   <div className="wp-block-column is-layout-flow">
-                    <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj.one/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
+                  <figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="28" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5355163141497013322_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5355163141497013322_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=736" alt="" class="wp-image-28" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
-                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Eyeliner</h2>
-                    <p className="has-small-font-size">Göz makyajının olmazsa olmazı <strong>eyeliner!</strong></p>
+                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>💎CLINIQUE nəmləndiricisi</h2>
+                    <p className="has-small-font-size">✨Bütün dəri tiplərinə uyğun<br />✨Yağsız gel formulunda<br />✨Məhsul 30 ml-dir</p>
                     <h2 className="wp-block-heading has-medium-font-size" id="129-00">5.00 AZN</h2>
                     <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
-                    <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p>
+                    {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
                     <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
 
               {/* Recommendation 2 */}
-
+{/* 
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
@@ -241,7 +269,7 @@ export default function App() {
                     </div>
                   </div>
                 </div></div>
-
+ */}
 
 
                 {/* Product 3 */}
@@ -249,11 +277,11 @@ export default function App() {
 
 
 
-              <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
+              {/* <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="rose-essential-oil-is-known-for-its-moisturizing-comforting-and-balancing-properties" style={{lineHeight: '1.5'}}>Rose essential oil is known for its moisturizing, comforting, and balancing properties.</h2>
-              </div>
-              <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
-              <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
+              </div> */}
+              {/* <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} /> */}
+              {/* <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-35">
                   <div className="wp-block-column is-layout-flow">
                     <figure className="wp-block-image size-large"><img decoding="async" loading="lazy" data-attachment-id={8} data-permalink="https://makyaj.one/ashley-piszek-fl-tfsphbco-unsplash/" data-orig-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg" data-orig-size="3711,2783" data-comments-opened={1} data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ashley-piszek-fl-tfsphbco-unsplash" data-image-description data-image-caption data-medium-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" src="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024" alt="" className="wp-image-8" srcSet="https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=1024 1024w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=2048 2048w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=300 300w, https://makyaj3.files.wordpress.com/2023/01/ashley-piszek-fl-tfsphbco-unsplash.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" width={3711} height={2783} /></figure>
@@ -268,7 +296,7 @@ export default function App() {
                     <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Recommendation 3 */}
 
@@ -280,7 +308,12 @@ export default function App() {
 </p>
               </div>
             </div>
-            <div className="wp-elements-5a51119ff6dc37d1f3ded4ce432e40e6 wp-block-columns alignwide are-vertically-aligned-center has-background-color has-foreground-background-color has-text-color has-background has-link-color is-layout-flex wp-container-42" style={{borderRadius: '28px', paddingTop: '4vw', paddingRight: '5.8%', paddingBottom: '4vw', paddingLeft: '5.8%'}}>
+
+
+
+
+            
+            {/* <div className="wp-elements-5a51119ff6dc37d1f3ded4ce432e40e6 wp-block-columns alignwide are-vertically-aligned-center has-background-color has-foreground-background-color has-text-color has-background has-link-color is-layout-flex wp-container-42" style={{borderRadius: '28px', paddingTop: '4vw', paddingRight: '5.8%', paddingBottom: '4vw', paddingLeft: '5.8%'}}>
               <div className="wp-block-column is-vertically-aligned-center is-layout-flow">
                 <h3 className="wp-block-heading" style={{fontSize: '2.2rem'}}>Subscribe to <br />our newsletter</h3>
               </div>
@@ -302,12 +335,15 @@ export default function App() {
                           <button type="submit" className="wp-block-button__link no-border-radius has-1.0625rem-font-size has-background-border-color has-text-color has-background-color has-background has-foreground-background-color" style={{fontSize: '1.0625rem', padding: '16px 24px 16px 24px', margin: '0px', marginLeft: '11px', borderColor: 'background', borderRadius: '0px', borderWidth: '1px'}}>
                             Subscribe</button>
                         </p>
+
                       </form>
+
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
+                    <a className="wp-block-button__link  no-border-radius" style={{paddingLeft: '300px', paddingRight: '300px', marginLeft:'150px', marginRight:'150px', minWidth:'200px'}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a>
           </main>
           <footer className="site-footer-container wp-block-template-part">
             <div className="wp-block-group is-layout-constrained">
