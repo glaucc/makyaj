@@ -103,13 +103,13 @@ export default function App() {
 
               {/* <div className="wp-block-cover alignfull is-light" style={{minHeight: '75vh'}}><span aria-hidden="true" className="wp-block-cover__background has-background-dim-0 has-background-dim" /><img decoding="async" className="wp-block-cover__image-background wp-image-11" alt="" src="https://attardemo.files.wordpress.com/2022/02/pexels-karolina-grabowska-4041392.jpg" style={{objectPosition: '0% 50%'}} data-object-fit="cover" data-object-position="0% 50%" /><div className="wp-block-cover__inner-container">
                   <div className="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-4 column1-desktop-grid__start-2 column1-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1">
-                    <div className="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
-                      <h2 className="wp-block-heading" id="100-pure-roseessential-oil" style={{fontSize: '48px', fontStyle: 'normal', fontWeight: 500}}>100% Pure Rose<br />Essential Oil</h2>
-                      <p>Our range of high-quality essential oils has been hand-picked by our scent specialists.</p>
-                      <div className="wp-block-buttons is-layout-flex">
-                        <div className="wp-block-button is-style-outline"><a className="wp-block-button__link wp-element-button" style={{borderRadius: '0px'}}>İndi Al</a></div>
-                      </div>
-                    </div>
+                  <div className="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
+                  <h2 className="wp-block-heading" id="100-pure-roseessential-oil" style={{fontSize: '48px', fontStyle: 'normal', fontWeight: 500}}>100% Pure Rose<br />Essential Oil</h2>
+                  <p>Our range of high-quality essential oils has been hand-picked by our scent specialists.</p>
+                  <div className="wp-block-buttons is-layout-flex">
+                  <div className="wp-block-button is-style-outline"><a className="wp-block-button__link wp-element-button" style={{borderRadius: '0px'}}>İndi Al</a></div>
+                  </div>
+                  </div>
                   </div>
                 </div></div> */}
               {/* <div className="wp-block-group is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
@@ -127,6 +127,7 @@ export default function App() {
               
               
               
+              {/* <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} /> */}
               
               
               
@@ -146,7 +147,6 @@ export default function App() {
                   </div>
                 </div>
               </div>
-              <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               {/* <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
                 <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
                 <p className="has-text-align-center has-small-font-size">Makyaj One müştərisi, Sara xanım
