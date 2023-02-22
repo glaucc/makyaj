@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Stack, Box, Wrap, WrapItem, Button, ButtonGroup } from '@chakra-ui/react'
+import 'animate.css';
 
 
 export default function App() {
@@ -134,16 +135,16 @@ export default function App() {
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-11">
                   <div className="wp-block-column is-layout-flow">
-                  <figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="27" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5341286991221867480_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5341286991221867480_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=736" alt="" class="wp-image-27" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
+                  <figure className="wp-block-image size-large animate__animated animate__fadeInLeft"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="27" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5341286991221867480_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5341286991221867480_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=736" alt="" class="wp-image-27" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5341286991221867480_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
-                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Maybelline New York Lash Sensational Sky High Maskara</h2>
-                    <p className="has-small-font-size">💄Suya dayanıqlı (Waterproof💧 )<br />💄Həcm təsirlidir<br />💄24 saat qalıcıdır</p>
-                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">15.99 AZN</h2>
-                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
+                    <h2 className="wp-block-heading animate__animated animate__fadeInRight" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Maybelline New York Lash Sensational Sky High Maskara</h2>
+                    <p className="has-small-font-size animate__animated animate__fadeInRight">💄Suya dayanıqlı (Waterproof💧 )<br />💄Həcm təsirlidir<br />💄24 saat qalıcıdır</p>
+                    <h2 className="wp-block-heading has-medium-font-size animate__animated animate__fadeInRight" id="129-00">15.99 AZN</h2>
+                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button animate__animated animate__fadeInRight" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
+                    <p className='animate__animated animate__fadeInRight'><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
@@ -191,16 +192,16 @@ export default function App() {
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-19">
                   <div className="wp-block-column is-layout-flow">
-                  <figure class="wp-duotone-unset-13 wp-block-image size-large"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="26" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5355163141497013324_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5355163141497013324_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=736" alt="" class="wp-image-26" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
+                  <figure className="wp-duotone-unset-13 wp-block-image size-large animate__animated animate__fadeInLeft"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="26" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5355163141497013324_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5355163141497013324_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=736" alt="" class="wp-image-26" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013324_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
-                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Maybelline New York İnstant Anti Age Eraser Qapadıcı</h2>
-                    <p className="has-small-font-size">✨Likit formada<br />✨Yüksək qapadıcılıq qabiliyyəti<br />✨10 fərqli rəng seçimi</p>
-                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">15.99 AZN</h2>
-                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
+                    <h2 className="wp-block-heading animate__animated animate__fadeInRight" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Maybelline New York İnstant Anti Age Eraser Qapadıcı</h2>
+                    <p className="has-small-font-size animate__animated animate__fadeInRight">✨Likit formada<br />✨Yüksək qapadıcılıq qabiliyyəti<br />✨10 fərqli rəng seçimi</p>
+                    <h2 className="wp-block-heading has-medium-font-size animate__animated animate__fadeInRight" id="129-00">15.99 AZN</h2>
+                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button animate__animated animate__fadeInRight" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
+                    <p className='animate__animated animate__fadeInRight'><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
@@ -237,16 +238,16 @@ export default function App() {
               <div className="wp-block-group alignwide is-layout-flow" style={{paddingTop: '5vh', paddingBottom: '5vh'}}>
                 <div className="wp-block-columns is-layout-flex wp-container-27">
                   <div className="wp-block-column is-layout-flow">
-                  <figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="28" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5355163141497013322_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5355163141497013322_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=736" alt="" class="wp-image-28" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
+                  <figure class="wp-block-image size-large animate__animated animate__fadeInLeft"><img decoding="async" loading="lazy" width="736" height="736" data-attachment-id="28" data-permalink="https://makyaj3.wordpress.com/home-2/photo_5355163141497013322_x/" data-orig-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg" data-orig-size="736,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="photo_5355163141497013322_x" data-image-description="" data-image-caption="" data-medium-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=300" data-large-file="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=736" src="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=736" alt="" class="wp-image-28" srcset="https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg 736w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=150 150w, https://makyaj3.files.wordpress.com/2023/02/photo_5355163141497013322_x.jpg?w=300 300w" sizes="(max-width: 736px) 100vw, 736px" /></figure>
                   </div>
                   <div className="wp-block-column is-layout-flow">
-                    <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>💎CLINIQUE nəmləndiricisi</h2>
-                    <p className="has-small-font-size">✨Bütün dəri tiplərinə uyğun<br />✨Yağsız gel formulunda<br />✨Məhsul 30 ml-dir</p>
-                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">15.99 AZN</h2>
-                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
+                    <h2 className="wp-block-heading animate__animated animate__fadeInRight" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>💎CLINIQUE nəmləndiricisi</h2>
+                    <p className="has-small-font-size animate__animated animate__fadeInRight">✨Bütün dəri tiplərinə uyğun<br />✨Yağsız gel formulunda<br />✨Məhsul 30 ml-dir</p>
+                    <h2 className="wp-block-heading has-medium-font-size animate__animated animate__fadeInRight" id="129-00">15.99 AZN</h2>
+                    <div className="wp-block-jetpack-recurring-payments animate__animated animate__fadeInRight"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
-                    <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
+                    <p className='animate__animated animate__fadeInRight'><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
                   </div>
                 </div>
               </div>
@@ -306,8 +307,8 @@ export default function App() {
 
               <hr className="wp-block-separator has-text-color has-css-opacity has-background alignfull is-style-wide" style={{backgroundColor: '#e5e5e5', color: '#e5e5e5'}} />
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '6vh', paddingBottom: '6vh'}}>
-                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance" style={{lineHeight: '1.5'}}><em>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
-                <p className="has-text-align-center has-small-font-size">Makyaj One müştərisi, Sara xanım
+                <h2 className="wp-block-heading has-text-align-center has-large-font-size" id="my-all-time-favourite-scent-it-smells-divine-and-lasts-all-day-a-true-and-beautiful-rose-fragrance " style={{lineHeight: '1.5'}}><em className='animate__animated animate__fadeIn'>“Keyfiyyətə söz ola bilməz! Sifarişimin gözlənilməz super olması və mənə özəl xüsusi bağlamalar tamamilə sürpriz oldu.”</em></h2>
+                <p className="has-text-align-center has-small-font-size animate__animated animate__fadeIn">Makyaj One müştərisi, Sara xanım
 
 </p>
               </div>
@@ -374,7 +375,7 @@ export default function App() {
 
   <Wrap spacing={4}>
     <WrapItem>
-      <Button className='sub-btn' colorScheme='gray'><a href='https://forms.gle/EhGUQ93vDx5MkuBm9'><b>Sifariş et👇</b></a></Button>
+      <Button className='sub-btn animate__animated animate__fadeIn' colorScheme='gray'><a href='https://forms.gle/EhGUQ93vDx5MkuBm9'><b>Sifariş et👇</b></a></Button>
     </WrapItem>
   </Wrap>
 </Stack>
@@ -405,7 +406,7 @@ export default function App() {
 
 
 
-          <footer className="site-footer-container wp-block-template-part">
+          <footer className="site-footer-container wp-block-template-part animate__animated animate__fadeIn">
             <div className="wp-block-group is-layout-constrained">
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '80px', paddingBottom: '30px'}}>
                 <p className="has-text-align-center">Proudly Powered by <a href="https://www.linkedin.com/company/byild" rel="nofollow">Byild</a></p>

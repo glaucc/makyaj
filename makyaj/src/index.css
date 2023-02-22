@@ -1,6 +1,10 @@
 * {
     text-decoration: none !important;
-
+    /* display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; referring directly to the animation's @keyframe declaration
+    animation-duration: 2s; */
 }
 
 
@@ -20,8 +24,8 @@
 
     width: 1000px;
     min-height: 100px;
-    transition: width 2s;
-    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    /* transition: width 2s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); */
     /* transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1) 0; */
 
 }
