@@ -1,3 +1,10 @@
+* {
+    text-decoration: none !important;
+
+}
+
+
+
 .css-1d7gnh5 {
     display: flex;
     align-items: center;
@@ -7,12 +14,14 @@
 .sub-btn {
     /* transition: width 2s;
     transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); */
-    animation: 1s
+    /* animation: 1s
     animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
-    animation-iteration-count:infinite;
+    animation-iteration-count:infinite; */
 
+    width: 1000px;
+    min-height: 100px;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
     /* transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1) 0; */
-
-
 
 }

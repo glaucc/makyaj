@@ -138,8 +138,8 @@ export default function App() {
                   <div className="wp-block-column is-layout-flow">
                     <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Maybelline New York Lash Sensational Sky High Maskara</h2>
                     <p className="has-small-font-size">💄Suya dayanıqlı (Waterproof💧 )<br />💄Həcm təsirlidir<br />💄24 saat qalıcıdır</p>
-                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">15.00 AZN</h2>
-                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
+                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">15.99 AZN</h2>
+                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
                     <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
@@ -196,8 +196,8 @@ export default function App() {
                   <div className="wp-block-column is-layout-flow">
                     <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>Maybelline New York İnstant Anti Age Eraser Qapadıcı</h2>
                     <p className="has-small-font-size">✨Likit formada<br />✨Yüksək qapadıcılıq qabiliyyəti<br />✨10 fərqli rəng seçimi</p>
-                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">5.00 AZN</h2>
-                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
+                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">15.99 AZN</h2>
+                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
                     <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
@@ -242,8 +242,8 @@ export default function App() {
                   <div className="wp-block-column is-layout-flow">
                     <h2 className="wp-block-heading" id="pure-rose-essential-oil" style={{fontStyle: 'normal', fontWeight: 500}}>💎CLINIQUE nəmləndiricisi</h2>
                     <p className="has-small-font-size">✨Bütün dəri tiplərinə uyğun<br />✨Yağsız gel formulunda<br />✨Məhsul 30 ml-dir</p>
-                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">5.00 AZN</h2>
-                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
+                    <h2 className="wp-block-heading has-medium-font-size" id="129-00">15.99 AZN</h2>
+                    <div className="wp-block-jetpack-recurring-payments"><div className="wp-block-jetpack-button wp-block-button" style={{}}><a className="wp-block-button__link  no-border-radius" style={{}} data-id-attr="placeholder" href="https://forms.gle/EhGUQ93vDx5MkuBm9" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a></div></div>
                     <div style={{height: '40px'}} aria-hidden="true" className="wp-block-spacer" />
                     {/* <p className="has-small-font-size">Göz makyajının olmazsa olmazı eyeliner!</p> */}
                     <p><strong>Çatdırılma</strong>: Bakı ✔️ (Metrolara Çatdırılma)</p>
@@ -374,7 +374,7 @@ export default function App() {
 
   <Wrap spacing={4}>
     <WrapItem>
-      <Button className='sub-btn' colorScheme='gray'>Gray</Button>
+      <Button className='sub-btn' colorScheme='gray'><a href='https://forms.gle/EhGUQ93vDx5MkuBm9'><b>Sifariş et👇</b></a></Button>
     </WrapItem>
   </Wrap>
 </Stack>
