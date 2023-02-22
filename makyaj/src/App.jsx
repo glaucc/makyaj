@@ -1,10 +1,13 @@
 import React from 'react'
 import './App.css'
+import { ChakraProvider } from '@chakra-ui/react'
+import { Stack, Box, Wrap, WrapItem, Button, ButtonGroup } from '@chakra-ui/react'
 
 
 export default function App() {
   
   return (
+    <ChakraProvider>
       <div>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -344,8 +347,64 @@ export default function App() {
                 </div>
               </div>
             </div> */}
-                    <a className="wp-block-button__link  no-border-radius" style={{paddingLeft: '300px', paddingRight: '300px', marginLeft:'150px', marginRight:'150px', minWidth:'200px'}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a>
+                    {/* <a className="wp-block-button__link  no-border-radius" style={{paddingLeft: '300px', paddingRight: '300px', marginLeft:'150px', marginRight:'150px', minWidth:'200px'}} data-id-attr="placeholder" href="#" target="_blank" role="button" rel="noopener noreferrer">Indi Al</a> */}
           </main>
+          
+
+
+
+
+          <Stack direction='column'>
+  {/* <Box
+    display='flex'
+    alignItems='center'
+    justifyContent='center'
+    width='100%'
+    py={12}
+    bgImage="url('https://bit.ly/2Z4KKcF')"
+    bgPosition='center'
+    bgRepeat='no-repeat'
+    mb={2}
+  >
+    <ButtonGroup gap='4'>
+      <Button colorScheme='whiteAlpha'>WhiteAlpha</Button>
+      <Button colorScheme='blackAlpha'>BlackAlpha</Button>
+    </ButtonGroup>
+  </Box> */}
+
+  <Wrap spacing={4}>
+    <WrapItem>
+      <Button className='sub-btn' colorScheme='gray'>Gray</Button>
+    </WrapItem>
+  </Wrap>
+</Stack>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <footer className="site-footer-container wp-block-template-part">
             <div className="wp-block-group is-layout-constrained">
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '80px', paddingBottom: '30px'}}>
@@ -359,5 +418,7 @@ export default function App() {
         <noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /&gt;</noscript>
         <div id="my-store-83841409"></div>
       </div>
+      </ChakraProvider>
+
   )
 };
