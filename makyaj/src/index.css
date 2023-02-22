@@ -3,3 +3,16 @@
     align-items: center;
     justify-content: center;
 }
+
+.sub-btn {
+    /* transition: width 2s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); */
+    animation: 1s
+    animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    animation-iteration-count:infinite;
+
+    /* transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1) 0; */
+
+
+
+}
