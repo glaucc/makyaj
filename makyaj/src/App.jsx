@@ -375,7 +375,7 @@ export default function App() {
 
   <Wrap spacing={4}>
     <WrapItem>
-      <Button className='sub-btn animate__animated animate__fadeIn' colorScheme='gray'><a href='https://forms.gle/EhGUQ93vDx5MkuBm9'><b>Sifariş et👇</b></a></Button>
+      <Button onClick={"https://forms.gle/EhGUQ93vDx5MkuBm9"} className='sub-btn animate__animated animate__fadeIn' colorScheme='gray'><a href='https://forms.gle/EhGUQ93vDx5MkuBm9'><b>Sifariş et👇</b></a></Button>
     </WrapItem>
   </Wrap>
 </Stack>
@@ -409,7 +409,7 @@ export default function App() {
           <footer className="site-footer-container wp-block-template-part animate__animated animate__fadeIn">
             <div className="wp-block-group is-layout-constrained">
               <div className="wp-block-group is-layout-flow" style={{paddingTop: '80px', paddingBottom: '30px'}}>
-                <p className="has-text-align-center">Proudly Powered by <a href="https://www.linkedin.com/company/byild" rel="nofollow">Byild</a></p>
+                <p className="has-text-align-center">Proudly Powered by <a href="https://sfferex.web.app" rel="nofollow">Sferex Agency</a></p>
               </div>
             </div>
           </footer></div>
