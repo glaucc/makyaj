@@ -375,7 +375,7 @@ export default function App() {
 
   <Wrap spacing={4}>
     <WrapItem>
-      <Button onClick={"https://forms.gle/EhGUQ93vDx5MkuBm9"} className='sub-btn animate__animated animate__fadeIn' colorScheme='gray'><a href='https://forms.gle/EhGUQ93vDx5MkuBm9'><b>Sifariş et👇</b></a></Button>
+    <a href='https://forms.gle/EhGUQ93vDx5MkuBm9' rel='nofollow'><Button className='sub-btn animate__animated animate__fadeIn' colorScheme='gray'><b>Sifariş et👇</b></Button></a>
     </WrapItem>
   </Wrap>
 </Stack>
